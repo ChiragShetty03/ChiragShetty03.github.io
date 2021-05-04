@@ -1,7 +1,7 @@
   body
     {
 	    margin:0px;
-	     background-image: url(p1.jpg);
+	     background-image: url("../images/p1.jpg");
             background-position: center;
             background-size: cover;
 	    font-family:Arial, Helvetica, sans-serif;
