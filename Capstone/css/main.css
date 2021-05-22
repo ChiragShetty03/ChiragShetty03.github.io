@@ -1,10 +1,19 @@
 #header a:hover {
-  color: white;
-  font-size: 1.1em;
+  color: black;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: rgb(178, 224, 238);
+  
+  
 }
 
+.icon {
+	color:black;
+}
+
+
 .blank {
-  background: #b2e0ee;
+  background: #648485;;
   padding-top: 100px;
 }
 
@@ -25,7 +34,7 @@
 }
 
 #About .fa {
-  color: white;
+  color: black;
 }
 
 #AboutData span {
