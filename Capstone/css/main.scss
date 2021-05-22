@@ -1,0 +1,96 @@
+#header a:hover{
+    color:white;
+    font-size: 1.1em;
+}
+.blank{
+    background:rgb(178, 224, 238);
+    padding-top: 100px;;
+}
+#About{
+    margin-top:-50px;
+    //margin-bottom: 1.2em;
+}
+#AboutData1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#About .fa{
+    color:white;
+}
+//.media-body{
+   // float: right;
+  //  padding-top:20px;
+    //padding-right:1.2em ;
+ //   margin-right: 100px;
+//}
+#AboutData span{
+    margin: -50px;
+    padding:10px 20px 10px 20px;
+}
+#AboutData hr{
+    border-width:2px;
+    margin-top:6px;
+}
+#AboutData{
+    margin-top: -50px;
+    font-size: 20px;
+    font-family: serif;
+    padding-bottom: 10px;
+}
+#education span{
+    padding:10px 20px 10px 20px;
+}
+#education hr{
+    border-width:2px;
+    margin-top:6px;
+}
+#education{
+    margin-top: -50px;
+}
+#Skills span{
+    padding:10px 20px 10px 20px;
+}
+#Skills hr{
+    border-width:2px;
+    margin-top:6px;
+}
+#Skills{
+    margin-top: -50px;
+}
+#Courses span{
+    padding:10px 20px 10px 20px;
+}
+#Courses hr{
+    border-width:2px;
+    margin-top:6px;
+}
+#Courses{
+    margin-top: -50px;
+}
+#Achievements span{
+    padding:10px 20px 10px 20px;
+}
+#Achievements hr{
+    border-width:2px;
+    margin-top:6px;
+}
+#Achievements{
+    margin-top: -50px;
+}
+#contact span{
+    padding:10px 20px 10px 20px;
+}
+#contact hr{
+    border-width:2px;
+    margin-top:6px;
+}
+#contact{
+    margin-top: -50px;
+}
+.table-top{
+    margin-right: 100px;
+}
+.table-borderless td,.table-borderless th {
+    border: 0;
+}
