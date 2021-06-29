@@ -12,6 +12,13 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);}
 
 #myBtn {
   display: none;
@@ -22,7 +29,7 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: transparent;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -30,7 +37,7 @@
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: black;
 }
 
 
@@ -59,7 +66,7 @@
   </div>
 </header>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow right"></i></button>
 <div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
 <div class="w3-bar w3-light-grey">
   <a href="#" class="w3-bar-item w3-button">Home</a>
